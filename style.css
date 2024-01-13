@@ -112,3 +112,82 @@ form button {
   border-radius: 0;
   border: 0.4rem solid #08415c;
 }
+
+@media screen  and (min-width:701px) {
+    
+    .container{
+        width:70vh;  
+    }
+}
+
+@media screen and (min-width:380px) and (max-width:700px){
+    
+    .container{
+        width:70%;
+    }
+
+    .select-container {
+        width: 9rem;
+    }
+
+    .select-container img{
+        max-width: 3.5rem;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:379px){
+    
+    .container{
+        width:70%;
+    }
+
+    .select-container {
+        width: 7.4rem;
+    }
+
+    .select-container img{
+        max-width: 2.7rem;
+    }
+
+    .title{
+        height: 8rem;
+    }
+}
+
+@media screen  and (max-width:299px) {
+    
+    .container{
+        width: 53%;
+    }
+
+    .title{
+        font-size: 1rem;
+        height: 8rem;
+        font-weight: 2rem;
+    }
+
+    .select-container {
+        width: 4.5rem;
+    }
+
+    .select-container img{
+        max-width: 0.5rem;
+    }
+
+    .amount,
+    .from,
+    .to,
+    .msg-from,
+    .select-container select{
+        font-size: 0.8rem;
+    }
+
+    .msg-to{
+        font-size: 0.8rem;
+    }
+
+    form button{
+        font-size: 1rem;
+        height: 6rem;
+    }
+}
