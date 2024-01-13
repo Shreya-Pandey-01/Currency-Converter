@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #6b818c;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 2rem;
+  min-height: 70vh;
+  width: 70vh;
+  border: 1rem solid #08415c;
+}
+
+.title {
+  margin-top: 2r0em;
+  text-align: center;
+  height: 4rem;
+  background-color: #f1bf98;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 3rem;
+  line-height: 4rem;
+  border-radius: 2rem;
+  border: 0.4rem solid #08415c;
+}
+
+form {
+  margin: 5rem 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+
+form input {
+  border: 1.2px solid lightslategray;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 1rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dropdown i {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.select-container img {
+  max-width: 5rem;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  border-radius: 2rem;
+  border: 1.2px solid lightslategray;
+}
+
+.select-container select {
+  font-size: 1rem;
+  width: auto;
+}
+
+.msg {
+  margin: 5rem 0 2rem 0;
+}
+
+.msg-from {
+  font-size: 2rem;
+}
+
+.msg-to {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  background-color: #eee5e9;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 0.15rem solid #59115d;
+}
+
+form button {
+  margin-top: 3rem;
+  height: 4rem;
+  background-color: #f1bf98;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 650;
+  cursor: pointer;
+  border-radius: 0;
+  border: 0.4rem solid #08415c;
+}
